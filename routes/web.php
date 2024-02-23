@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Guest\CocktailController as GuestCocktailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::name('cocktail.')->group(
+    function () {
+        route::get('/listCocktails', [GuestCocktailController::class, 'index'])->name('index');
+        route::get('/listCocktails/{cocktail}', [GuestCocktailController::class, 'show'])->name('show');
+    }
+);
