@@ -16,4 +16,11 @@ class CocktailController extends Controller
             'results' => $cocktails
         ]);
     }
+    public function show(Cocktail $cocktail)
+    {
+        return response()->json([
+            'success' => true,
+            'results' => $cocktail
+        ]);
+    }
 }

@@ -38,7 +38,7 @@ class CocktailSeeder extends Seeder
             ],
             [
                 'name' => 'Daiquiri',
-                'image' => 'https://www.fattoincasadabenedetta.it/wp-content/uploads/2020/06/Mojito-copertina.jpg',
+                'image' => 'https://www.liquor.com/thmb/ffYicPLJk00SWKg2shV67TPHV74=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Daiquiri_3000x3000_primary-206eb2330cb04852ab7d780dcf3d55ef.jpg',
                 'ingredients' => '4.5 cl di Rum bianco, 2.25 cl di succo di lime, 0.75 cl di sciroppo semplice',
                 'description' => 'Shakerare gli ingredienti con ghiaccio e filtrare in un bicchiere coupette.
                 ',
@@ -61,7 +61,7 @@ class CocktailSeeder extends Seeder
             ],
             [
                 'name' => 'Americano',
-                'image' => 'https://chilledmagazine.com/wp-content/uploads/2023/05/Cosmopolitan-Cocktail.jpg',
+                'image' => 'https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2023/01/americano-1200x675.jpg',
                 'ingredients' => '3 cl di Campari, 3 cl di Vermouth rosso, Acqua seltz',
                 'description' => 'Versare il Campari e il Vermouth rosso in un bicchiere old fashioned con ghiaccio. Aggiungere acqua seltz e decorare con una fetta d\'arancia',
                 'price' => 7,
